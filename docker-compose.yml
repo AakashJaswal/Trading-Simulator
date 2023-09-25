@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  my-app:
+    build:
+      context: FrontEnd
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
